@@ -22,3 +22,7 @@ CREATE table AppearsIn(
 FOREIGN_KEY(catalogNum) REFERNCES DVD_Title(catalogNum),
 FOREIGN_KEY(actorID) REFRENCES Actor(actorID)
 );
+
+INSERT TO DVD_Title(catalogNum, title, category, rentalFee, director)
+VALUES('1001', 'The Muppet Movie', 'Comedy', '1.99', 'James Frawley');
+
